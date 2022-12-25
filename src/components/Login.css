@@ -24,8 +24,14 @@ a{
     margin: 0 auto;
 }
 
+.login__row{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 .login__container{
-    padding-bottom: 0px;
+    padding-bottom: 60px;
 }
 
 .login__main{
@@ -34,7 +40,7 @@ a{
 }
 
 .login__footer{
-    margin-top: 15vh;
+flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
